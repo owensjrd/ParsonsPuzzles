@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Parson Puzzles</title>
+   <title>Parson Puzzles</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -25,7 +25,7 @@
     <script src="https://js-parsons.github.io/js/js-parsons/parsons.js"></script>
   
   <!--Paste code from Parson Puzzles UI below -->
-  <div id="sortableTrash" class="sortable-code"></div> 
+<div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
@@ -34,16 +34,8 @@
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "let repeat = &quot;yes&quot;;\n" +
-    "while (repeat == &quot;yes&quot;) {\n" +
-    "    let questionOne = prompt(&quot;Helen Clark NZ&#039;s Woman PM&quot;); \n" +
-    "        if (questionOne == &quot;yes&quot;) {\n" +
-    "            alert(&quot;correct&quot;);\n" +
-    "        } else {\n" +
-    "            alert(&quot;incorrect&quot;);\n" +
-    "        }\n" +
-    "    \n" +
-    "    repeat = prompt(&quot;do you want to try again?&quot;);\n" +
+  var initial = "for(let i = 1; i &lt; 10; i++){\n" +
+    "    alert(i);\n" +
     "}";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
