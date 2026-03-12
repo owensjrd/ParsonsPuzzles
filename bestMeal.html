@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <h1>Iterate Through an Array</h1>
+  <h1>Best Meal Of All Time</h1>
   <link href="https://js-parsons.github.io/js/js-parsons/parsons.css" rel="stylesheet" />
     <link href="https://js-parsons.github.io/js/js-parsons/lib/prettify.css" rel="stylesheet" />
 
@@ -34,9 +34,17 @@
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "let cars = [&quot;Tesla&quot;, &quot;BMW&quot;, &quot;Porsche&quot;, &quot;Toyota&quot;];\n" +
-    "for (let i = 0; i &lt; cars.length; i++) {\n" +
-    "    console.log(cars[i]);\n" +
+  var initial = "alert(&quot;Welcome to the best meal of all time App &quot;)\n" +
+    "let favMeal = [];\n" +
+    "let meal = prompt(&quot;What is your main course?&quot;);\n" +
+    "let drink = prompt(&quot;What are you drinking?&quot;);\n" +
+    "let desert = prompt(&quot;What&#039;s for dessert?&quot;);\n" +
+    "favMeal.push(meal);\n" +
+    "favMeal.push(drink);\n" +
+    "favMeal.push(desert);\n" +
+    "console.log(&quot;your best meal of all time is&quot;);\n" +
+    "for (let i = 0; i &lt; favMeal.length; i++) {\n" +
+    "    console.log(favMeal[i]);\n" +
     "}";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
