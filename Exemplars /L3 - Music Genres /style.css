@@ -1,0 +1,268 @@
+/* Full screen CSS */
+body {
+	margin: 0;
+	height: 100%;
+	background-color: #0f2246;
+
+}
+
+@font-face {
+    font-family: 'trapmusicregular';
+    src: url('fonts/trapmusic-webfont.woff2') format('woff2'),
+         url('fonts/trapmusic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.text{
+	width: 100%;
+	background-color: #0f2246;
+	margin: auto;
+	padding: 20px;
+	font-size: 27px;
+	padding-right: 5px;
+}
+
+/* Cover */
+
+#cover {
+	background-image: url(images/giphy.gif);
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: 900px;
+	margin-top: -110px;
+
+}
+
+h1 {
+	font-family: 'trapmusicregular';
+	color: orange;
+	font-size: 10em;
+	text-align: center;
+	padding-top: 400px;
+}
+
+h2 {
+	font-family: 'cuprum', sans-serif;
+	color: orange;
+}
+/*Nav*/
+
+
+.menulist:{
+	display: none;
+}
+
+a {
+	font-family: 'Cuprum', sans-serif;
+	font-size: 25px;
+	padding: 40px;
+    text-align: center;
+
+
+}
+
+nav {
+	background-color: orange;
+	height: 50px;
+	text-align: center;
+    padding-top: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #0f2246;
+	text-align: center;
+	font: 'cuprum', sans-serif;
+	
+}
+
+nav a:hover {
+    color: white;
+}
+p {
+	font-family: 'Cuprum', sans-serif;
+	color: orange;
+	column-count: 2;
+	padding: 20px;
+	text-align: left;
+
+}
+
+#image1 {
+	background-image: url(images/image1.jpg);
+	height: 400px;
+	background-attachment: fixed;
+    background-size: cover;
+}
+#image2 {
+	background-image: url(images/image2.jpg);
+	height: 400px;
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+#image3 {
+	background-image: url(images/image3.jpg);
+	height: 400px;
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+footer  {
+    font-size: 16px;
+    color: orange;
+    width: 600px;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+footer a:link {
+    font-size: 14px;
+    color: orange;
+    padding: 5px;
+    margin: 5px;
+}
+ 
+footer a:visited {
+    color: darkgray;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    column-count: 1;
+}
+
+/* Mobile Device CSS*/
+@media screen and (min-width: 700px) {
+
+.mobile-menu {
+	display: none;
+}
+
+	}
+
+@media screen and (max-width: 700px) {
+
+	p {
+		column-count: 1;
+		padding; 20px;
+	}
+	   h1 {
+        padding-top: 50px;
+    }
+    
+    #cover {
+        height: 200px;
+    }
+	#header{
+
+background-color: #0f2246;
+width:100%;
+height:50px;
+
+  width: auto;
+  position: relative;
+  padding: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  /* disable text selection by clicking */
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.mobile-menu a.dropdown-link{
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  color: #0f2246;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background: orange;
+  font-family: 'Cuprum', sans-serif;
+    padding-top: 20px;
+}
+
+.mobile-menu a.dropdown-link:hover{
+    text-decoration: none;
+}
+.mobile-menu a.dropdown-link i{
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+.mobile-dropdown {
+  display: none;
+  list-style-type: none;
+  background: orange;
+  padding: 0;
+  min-width: 125px;
+  position: relative;
+  z-index: 100;
+  margin: 0;
+}
+
+.mobile-dropdown li{
+  padding: 0;
+  height: auto;
+}
+
+.mobile-dropdown li a{
+  padding: 0;
+  color: #0f2246;
+  display: block;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  
+  text-decoration: none;
+}
+
+.mobile-dropdown li a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+
+	body {
+		background-color: #0f2246;
+		background-image: url(); }
+		#cover{
+			background-image: url();
+		}
+		#image1{
+			display: none;
+			}
+			#text {
+				margin:;
+				width:100%;
+
+			}
+			#image2{
+				display: none;
+			}
+			#image3 {
+				display: none;
+			}
+		h1 {
+	font-family: 'trapmusicregular';
+	color: orange;
+	font-size: 7em;
+}
+nav {
+	display: none;
+}
+}
+
+
+
